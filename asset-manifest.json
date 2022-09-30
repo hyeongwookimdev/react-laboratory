@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-laboratory/static/css/main.5b1d6ab0.css",
+    "main.js": "/react-laboratory/static/js/main.dd31662c.js",
+    "index.html": "/react-laboratory/index.html",
+    "main.5b1d6ab0.css.map": "/react-laboratory/static/css/main.5b1d6ab0.css.map",
+    "main.dd31662c.js.map": "/react-laboratory/static/js/main.dd31662c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b1d6ab0.css",
+    "static/js/main.dd31662c.js"
+  ]
+}
