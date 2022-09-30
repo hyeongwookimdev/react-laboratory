@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-laboratory/static/css/main.5b1d6ab0.css",
-    "main.js": "/react-laboratory/static/js/main.d11dc862.js",
+    "main.js": "/react-laboratory/static/js/main.656046e0.js",
     "index.html": "/react-laboratory/index.html",
     "main.5b1d6ab0.css.map": "/react-laboratory/static/css/main.5b1d6ab0.css.map",
-    "main.d11dc862.js.map": "/react-laboratory/static/js/main.d11dc862.js.map"
+    "main.656046e0.js.map": "/react-laboratory/static/js/main.656046e0.js.map"
   },
   "entrypoints": [
     "static/css/main.5b1d6ab0.css",
-    "static/js/main.d11dc862.js"
+    "static/js/main.656046e0.js"
   ]
 }
