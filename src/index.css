@@ -1,14 +1,14 @@
 @import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
   display: flex;
   justify-content: center;
+  height: 100vh;
 }
 
 code {
@@ -16,9 +16,12 @@ code {
     monospace;
 }
 
+button {
+  border: none;
+}
+
 #root {
-  height: 100%;
-  width: 40%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
