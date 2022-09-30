@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <ToDoList />,
   },
   {
-    path: `${process.env.PUBLIC_URL}coin-tracker`,
+    path: `${process.env.PUBLIC_URL}/coin-tracker`,
     element: <CoinTracker />,
   },
 ]);
