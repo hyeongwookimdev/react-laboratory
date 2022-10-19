@@ -6,16 +6,10 @@ function Home() {
     <div className={styles.container}>
       <h1 className={styles.title}>Welcome to React Laboratory!</h1>
       <div>
-        <Link
-          className={styles.link}
-          to={`${process.env.PUBLIC_URL}/to-do-list`}
-        >
+        <Link className={styles.link} to={`/to-do-list`}>
           To Do List!
         </Link>
-        <Link
-          className={styles.link}
-          to={`${process.env.PUBLIC_URL}/coin-tracker`}
-        >
+        <Link className={styles.link} to={`/coin-tracker`}>
           Coin Tracker!
         </Link>
       </div>

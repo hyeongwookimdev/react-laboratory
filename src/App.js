@@ -1,20 +1,25 @@
 import styles from "./App.module.css";
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  createHashRouter,
+} from "react-router-dom";
 import Home from "./routes/Home";
 import ToDoList from "./routes/ToDoList";
 import CoinTracker from "./routes/CoinTracker";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: `${process.env.PUBLIC_URL}/`,
+    path: `/`,
     element: <Home />,
   },
   {
-    path: `${process.env.PUBLIC_URL}/to-do-list`,
+    path: `/to-do-list`,
     element: <ToDoList />,
   },
   {
-    path: `${process.env.PUBLIC_URL}/coin-tracker`,
+    path: `/coin-tracker`,
     element: <CoinTracker />,
   },
 ]);
